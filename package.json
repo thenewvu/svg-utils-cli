@@ -1,0 +1,17 @@
+{
+    "name": "svg-utils-cli",
+    "version": "1.0.0",
+    "description": "A set of minimal CLIs that processes SVG data",
+    "author": "Vu Le <thenewvu@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "svg-points": "^6.0.1",
+        "svgpath": "^2.2.2",
+        "xmldom": "^0.1.27"
+    },
+    "bin": {
+        "svg-absify": "src/svg-absify.js",
+        "svg-flatten": "src/svg-flatten.js",
+        "svg-pathify": "src/svg-pathify.js"
+    }
+}
