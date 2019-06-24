@@ -18,5 +18,5 @@ $ cat [test.svg](./test/test.svg) | svg-absify > [absified.svg](./test/absified.
 
 Copy all attributes of `g` to its children then remove it.
 
-$ cat [test.svg](./test/test.svg) | svg-ungroup > [ungroupded.svg](./test/ungroupded.svg)
+$ cat [test.svg](./test/test.svg) | svg-ungroup > [ungrouped.svg](./test/ungrouped.svg)
 
