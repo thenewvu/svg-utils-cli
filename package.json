@@ -11,7 +11,7 @@
     },
     "bin": {
         "svg-absify": "src/svg-absify.js",
-        "svg-flatten": "src/svg-flatten.js",
+        "svg-ungroup": "src/svg-ungroup.js",
         "svg-pathify": "src/svg-pathify.js"
     }
 }

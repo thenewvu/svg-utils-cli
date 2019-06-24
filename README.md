@@ -14,9 +14,9 @@ Convert relative path commands (mlhvqcTtSsz) to absolute ones (MLHVQCZ).
 
 $ cat [test.svg](./test/test.svg) | svg-absify > [absified.svg](./test/absified.svg)
 
-## svg-flatten
+## svg-ungroup
 
 Copy all attributes of `g` to its children then remove it.
 
-$ cat [test.svg](./test/test.svg) | svg-flatten > [flattended.svg](./test/flattended.svg)
+$ cat [test.svg](./test/test.svg) | svg-ungroup > [ungroupded.svg](./test/ungroupded.svg)
 
