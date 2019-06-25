@@ -42,7 +42,14 @@ function absify(dom) {
         if (node.tagName.toLowerCase() === 'path') {
             const transform = node.getAttribute('transform')
             node.removeAttribute('transform')
-            const d = svgpath(node.getAttribute('d')).transform(transform).abs().unshort().toString()
+            const d = svgpath(node.getAttribute('d'))
+                .transform(transform)
+                .abs()
+                .unshort()
+                .round(3)
+                .segments
+                .flat()
+                .join(' ')
             node.setAttribute('d', d)
         }
         
