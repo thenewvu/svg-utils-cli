@@ -3,16 +3,15 @@
 const xmldom = require('xmldom')
 const DOMParser = xmldom.DOMParser
 const XMLSerializer = xmldom.XMLSerializer
-const svgpath = require('svgpath')
 
 const stdin = process.stdin
 stdin.setEncoding('utf8');
 
 const stdout = process.stdout
-stdout.setEncoding('utf8');
+stdout.setDefaultEncoding('utf8');
 
 const stderr = process.stderr
-stderr.setEncoding('utf8');
+stderr.setDefaultEncoding('utf8');
 
 let data = ''
 
