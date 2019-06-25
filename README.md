@@ -20,3 +20,10 @@ Copy all attributes of `g` to its children then remove it.
 
 $ cat [test.svg](./test/test.svg) | svg-ungroup > [ungrouped.svg](./test/ungrouped.svg)
 
+## svg-defsify
+
+Move (mask|clipPath|linearGradient|radialGradient|filter) to a single `defs` at
+the end of svg document.
+
+$ cat [test.svg](./test/test.svg) | svg-defsify > [defsified.svg](./test/defsified.svg)
+

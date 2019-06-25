@@ -12,6 +12,7 @@
     "bin": {
         "svg-absify": "src/svg-absify.js",
         "svg-ungroup": "src/svg-ungroup.js",
-        "svg-pathify": "src/svg-pathify.js"
+        "svg-pathify": "src/svg-pathify.js",
+        "svg-defsify": "src/svg-defsify.js"
     }
 }
