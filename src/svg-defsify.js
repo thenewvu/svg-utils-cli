@@ -68,7 +68,7 @@ function defsify(dom) {
         }
         else
         if (tag === 'mask' || 
-        if (tag === 'clipPath' || 
+            tag === 'clipPath' || 
             tag === 'linearGradient' ||
             tag === 'radialGradient' ||
             tag === 'filter') {
