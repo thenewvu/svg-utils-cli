@@ -10,13 +10,13 @@ $ cat [test.svg](./test/test.svg) | svg-pathify > [pathified.svg](./test/pathifi
 
 ## svg-absify
 
-Convert relative path commands (mlhvqcTtSsz) to absolute ones (MLHVQCZ).
+Convert relative path commands (mlhvqcTtSsaz) to absolute ones (MLHVQCAZ).
 
 $ cat [test.svg](./test/test.svg) | svg-absify > [absified.svg](./test/absified.svg)
 
 ## svg-ungroup
 
-Copy all attributes of `g` to its children then remove it.
+Copy all attributes of `g` to its children then remove it recursively.
 
 $ cat [test.svg](./test/test.svg) | svg-ungroup > [ungrouped.svg](./test/ungrouped.svg)
 
